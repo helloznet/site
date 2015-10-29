@@ -1,0 +1,305 @@
+/* NAVIGATION */
+html.no-js .navContainer {
+    font-size: 2em;
+    ul {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+        margin-right: 1em;
+    }
+    form {
+        input[type="text"], textarea {
+            background-color: $white;
+            border: 1px solid $black;
+        }
+    }
+    .navButton {
+        display: none;
+    }
+}
+
+html.js .navContainer{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    font-family: $miscSansSerif;
+    font-weight: normal;
+    text-transform: uppercase;
+    overflow: hidden;
+    background-color: white;
+    font-size: 1.5em;
+    border-bottom: 1px solid $lightGray;
+    color: $lightGray;
+    
+    .navMenu{
+        list-style: none;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 1500px;
+        overflow: hidden;
+        
+        & > li {
+            text-align: center;
+            float: left;
+            width: 16.6%;    
+        }
+    }
+    
+    %button {
+        padding: 0.75em 0em;
+        display: block;
+    }
+    .navButton {
+        @extend %button;
+        
+        .navButtonText {
+            display: none;
+        }
+        
+        &.activeButton{
+            text-decoration: underline;
+            background-color: $darkOrange;
+            color: $white;
+        }
+    }
+    
+    .socialButton {
+        @extend %button;
+    }
+
+    .subMenuWrapper {
+        font-family: $miscSansSerif;
+        width: 100%;
+        background-color: $darkOrange;
+        display: block;
+        overflow: hidden;
+        
+        .subMenu {
+            display: block;
+            overflow: hidden;
+            max-width: 1500px;
+            margin: 0 auto;
+            background-color: purple;
+            a {
+                color: $white;
+                
+                &:focus {
+                    color: $white;
+                }
+            }
+            
+            %navSection {
+                display: block;
+                clear: both;
+                li {
+                    a, .navText {
+                        display: inline-block;
+                    }
+                }
+            }
+            
+            .siteLinks {
+                @extend %navSection;
+                li {
+                    a, .navText {
+                        padding: 0.5em;
+                    }
+                }
+                li:first-child { 
+                    margin-top: 0.5em;
+                }
+            }
+            .socialLinks {
+                @extend %navSection;
+                margin: 0 auto;
+                margin-bottom: 0.5em;
+                li {
+                    .navText {
+                        padding: 0.5em;
+                    }
+                    a {
+                        padding-top: 0.35em;
+                        font-size: 1.5em;
+                        line-height: 0;
+                    }
+                }
+            }
+            
+            .searchForm {
+                max-width: 25em;
+                input, button {
+                    border: 0;
+                    float: left;
+                }
+                input{
+                    margin: 0.8em 0 0.8em 0;
+                    padding-left: .1em;
+                    font-family: $miscSansSerif;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    overflow: hidden;
+                    width: 75%;
+                    max-width: 50em;
+                    color: $white;
+                }
+                input[type="text"], textarea {
+                    background-color: $darkOrange;
+                    border: 2px solid $white;
+                }
+                input:-webkit-autofill {
+                    -webkit-box-shadow: 0 0 0px 1000px $darkOrange inset;
+                    -webkit-text-fill-color: $white !important;
+                }
+                button {
+                    border: none;
+                    background-color: none;
+                    background-color: $darkOrange;
+                    color: $white;
+                    padding: 1em 0 0.2em 0.8em;
+                    width: 2em;
+                }
+                ::-webkit-input-placeholder { /* WebKit browsers */
+                    color:    $white;
+                }
+                :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+                   color:    $white;
+                   opacity:  1;
+                }
+                ::-moz-placeholder { /* Mozilla Firefox 19+ */
+                   color:    $white;
+                   opacity:  1;
+                }
+                :-ms-input-placeholder { /* Internet Explorer 10+ */
+                   color:    $white;
+                }
+            }
+        }
+    }
+    
+    
+    .socialShares {
+        display: block;
+        overflow: hidden;
+    }
+
+    
+
+}
+
+@media (min-width : 200px) {
+    html.js .navContainer{
+        .subMenuWrapper {
+            .subMenu {
+                .socialLinks {
+                    li {
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width : 250px) {
+    html.js .navContainer{
+        .subMenuWrapper {
+            .subMenu {
+                .socialLinks {
+                    li {
+                        float: left;
+                    }
+                }
+                .searchForm {
+                    input{
+                        margin-left: 1em;
+                    }
+                    button {
+                        padding-right: 0.6em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width : 340px) {
+
+    
+    html.js .navContainer{
+        %button {
+            padding: 0.75em 0.75em;
+        }
+        .subMenuWrapper {
+            .subMenu {
+                %navSection {
+                    float: left;
+                    clear: none;
+                    margin: 0.5em;
+                }
+                .siteLinks {
+                    padding-right: 1em;
+                    border-right: 1px solid $white;
+                }
+                .socialLinks {
+                    padding: 0.5em 0 0 0;
+                    
+                    li {
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width : 400px) {
+    html.js .navContainer{
+        .navMenu{
+            & > li {
+                width: auto;
+                margin-right: 0.5em;
+            }
+        }
+        .navButton {
+            .navButtonText {
+                display: inline;
+            }
+        }
+    }
+}
+@media (min-width : 520px) {
+    html.js .navContainer{
+        .subMenuWrapper {
+            .subMenu {
+                %navSection {
+                    li {
+                        float: left;
+                    }
+                }
+                .siteLinks {
+                    li:first-child { 
+                        margin: 0;
+                    }
+                }
+                
+                .socialLinks {
+                    padding: 0;
+                }
+            }
+        }
+        
+    }
+    
+}

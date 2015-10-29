@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<link rel="hub" href="https://pubsubhubbub.appspot.com"/>
+  <title type="text" xml:lang="en">ZacharyBell.net</title>
+    <link type="application/atom+xml" href="//atom.xml" rel="self"/>
+    <link href="//"/>
+  <updated>2015-10-26T14:12:14Z</updated>
+  <id>//</id>
+  <author>
+    <name></name>
+    <email></email>
+  </author>
+  <rights type="text">Copyright © 2015 . All rights reserved.</rights>
+  
+  <entry>
+    <title>The Demonist</title>
+    <link rel="alternate" type="text/html" href="http://www.zacharybell.net/content/2015/10/10/the-demonist.html/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign=TheDemonist" />
+    <published>2015-10-10T19:10:08Z</published>
+    <updated>2015-10-10T19:10:08-04:00</updated>
+    <id>//content/2015/10/10/the-demonist</id>
+    <summary>Tim buys a book. Tim accidentally summons a demon. Hilarity, carnage, ensue.</summary>
+  </entry>
+  
+  <entry>
+    <title>A Last Minute Truth</title>
+    <link rel="alternate" type="text/html" href="http://www.zacharybell.net/content/2015/10/08/a-last-minute-truth.html/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign=ALastMinuteTruth" />
+    <published>2015-10-08T18:48:16Z</published>
+    <updated>2015-10-08T18:48:16-04:00</updated>
+    <id>//content/2015/10/08/a-last-minute-truth</id>
+    <summary>Old, embittered and depressed, Eustace decides to kill himself. Then he does something else.</summary>
+  </entry>
+  
+  <entry>
+    <title>Taking Pictures of Cats Having Sex In Istanbul</title>
+    <link rel="alternate" type="text/html" href="http://www.zacharybell.net/content/2015/09/22/taking-pictures-of-cats-having-sex-in-istanbul.html/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign=TakingPicturesofCatsHavingSexInIstanbul" />
+    <published>2015-09-22T01:26:31Z</published>
+    <updated>2015-09-22T01:26:31-04:00</updated>
+    <id>//content/2015/09/22/taking-pictures-of-cats-having-sex-in-istanbul</id>
+    <summary>Wherein I travel to distant lands, try to get a nice souvenir  and then engage in philosophical debate with policeman.</summary>
+  </entry>
+  
+  <entry>
+    <title>Welcome Travelers, To Dublin</title>
+    <link rel="alternate" type="text/html" href="http://www.zacharybell.net/content/2015/09/18/welcome-travelers-to-dublin.html/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign=WelcomeTravelersToDublin" />
+    <published>2015-09-18T14:07:12Z</published>
+    <updated>2015-09-18T14:07:12-04:00</updated>
+    <id>//content/2015/09/18/welcome-travelers-to-dublin</id>
+    <summary>We took this double-decker bus and maybe someone got murdered and then my mom didn't save my luggage from disaster.</summary>
+  </entry>
+  
+  <entry>
+    <title>Alfreds For Breakfast</title>
+    <link rel="alternate" type="text/html" href="http://www.zacharybell.net/content/2015/08/27/alfreds-for-breakfast.html/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign=AlfredsForBreakfast" />
+    <published>2015-08-27T20:45:29Z</published>
+    <updated>2015-08-27T20:45:29-04:00</updated>
+    <id>//content/2015/08/27/alfreds-for-breakfast</id>
+    <summary>Albert wants to get the man who proposed plate tectonics removed from highschool textbooks.</summary>
+  </entry>
+  
+  <entry>
+    <title>You&#39;re Right, But Still</title>
+    <link rel="alternate" type="text/html" href="http://www.zacharybell.net/content/2015/08/15/youre-right-but-still.html/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign=You&#39;reRightButStill" />
+    <published>2015-08-15T19:57:11Z</published>
+    <updated>2015-08-15T19:57:11-04:00</updated>
+    <id>//content/2015/08/15/youre-right-but-still</id>
+    <summary>A man has a long-overdue conversation with his beer. It's kind of an intervention—in reverse.</summary>
+  </entry>
+  
+  <entry>
+    <title>Bratz Doll Opera</title>
+    <link rel="alternate" type="text/html" href="http://www.zacharybell.net/content/2015/06/11/bratz-doll-opera.html/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign=BratzDollOpera" />
+    <published>2015-06-11T21:00:25Z</published>
+    <updated>2015-06-11T21:00:25-04:00</updated>
+    <id>//content/2015/06/11/bratz-doll-opera</id>
+    <summary>…performed atop a McDonald’s trashcan by an eight year old.</summary>
+  </entry>
+  
+  <entry>
+    <title>Landlord</title>
+    <link rel="alternate" type="text/html" href="http://www.zacharybell.net/content/2015/05/05/landlord.html/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign=Landlord" />
+    <published>2015-05-05T20:34:44Z</published>
+    <updated>2015-05-05T20:34:44-04:00</updated>
+    <id>//content/2015/05/05/landlord</id>
+    <summary>This land ain't my land. This land ain't your land.</summary>
+  </entry>
+  
+  <entry>
+    <title>Alvys Wosinton</title>
+    <link rel="alternate" type="text/html" href="http://www.zacharybell.net/content/2015/04/29/alvys-wosinton.html/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign=AlvysWosinton" />
+    <published>2015-04-29T18:10:29Z</published>
+    <updated>2015-04-29T18:10:29-04:00</updated>
+    <id>//content/2015/04/29/alvys-wosinton</id>
+    <summary>The further adventures of our time-traveling hero and one time Hitler-assassin. Also, a priest gets laid and some grain is brought to market.</summary>
+  </entry>
+  
+  <entry>
+    <title>Heather Died A Long Time Ago</title>
+    <link rel="alternate" type="text/html" href="http://www.zacharybell.net/content/2015/01/09/heather-died-a-long-time-ago.html/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign=HeatherDiedALongTimeAgo" />
+    <published>2015-01-09T00:46:22Z</published>
+    <updated>2015-01-09T00:46:22-05:00</updated>
+    <id>//content/2015/01/09/heather-died-a-long-time-ago</id>
+    <summary>No one can tell you how to mourn.</summary>
+  </entry>
+  
+</feed>

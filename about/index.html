@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1"><!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --><meta name="description" content=""><meta name="author" content=""><script>var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+    window.SCREEN_MIN  = 300;
+    window.SCREEN_XS   = 480;
+    window.SCREEN_MS   = 530;
+    window.SCREEN_SM   = 768;
+    window.SCREEN_MD   = 992;
+    window.SCREEN_LG   =1200;</script><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png"><link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32"><link rel="shortcut icon" href="/favicon.ico"><meta name="msapplication-TileColor" content="#da532c"><meta name="msapplication-TileImage" content="/mstile-144x144.png"><meta property="og:title" content="Short stories and essays by Zachary Bell"><meta property="og:site_name" content="ZacharyBell.net"><meta property="og:url" content="/about/index.html"><meta property="og:description" content="Do you like reading words? Because there are words here"><meta property="article:author" content="https://www.zacharybell.net/about"><meta property="article:publisher" content="https://www.zacharybell.net"><meta property="og:type" content="article"><meta property="og:image" content="http://www.zacharybell.net/apple-touch-icon-180x180.png"><title>ZacharyBell.net</title><link href="http://fonts.googleapis.com/css?family=Lora:400|Open+Sans:800|Karla:400,700,700italic" rel="stylesheet" type="text/css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="http://www.zacharybell.net/javascript/resource/modernizr.js"></script><script>if (!window.jQuery) {
+        document.write('<script src="http://www.zacharybell.net/javascript/resource/jquery.min.js"><\/script>');
+    }</script><!-- just here for the media query thing --><style></style><link rel="stylesheet" href="http://www.zacharybell.net/css/blog.css"></head><body><div class="mainContainer"><div class="navContainer"><ul class="navMenuWrapper"><li><ul class="navMenu"><li class="mainSection"><ul><li class="navButton" data-menu-identifier="main"><a href=""><span class="icon-menu"></span><span class="navButtonText">menu</span></a></li><li class="navButton" data-menu-identifier="search"><a href=""><span class="icon-search"></span><span class="navButtonText">search</span></a></li></ul></li></ul><ul class="subMenuWrapper"><li class="subMenu" data-menu-identifier="main"><ul class="siteLinks"><li><a href="http://www.zacharybell.net">stories</a></li><li><a href="http://www.zacharybell.net/blog">blog</a></li><li><a href="http://www.zacharybell.net/about">about</a></li><li><a href="http://www.zacharybell.net/contact">contact</a></li></ul><ul class="socialLinks"><li><span class="navText">follow:</span></li><li><a href="https://twitter.com/intent/user?screen_name=Zachary_Bell" target="_blank"><span class="icon-twitter-squared"></span></a></li><li><a href="https://www.facebook.com/thezacharybell" target="_blank"><span class="icon-facebook-squared"></span></a></li><li><a href="http://www.zacharybell.net/rss" target="_blank"><span class="icon-rss-squared"></span></a></li></ul></li></ul><ul class="subMenuWrapper"><li class="subMenu" data-menu-identifier="search"><form class="searchForm" method="get" action="http://www.zacharybell.net/search/index.html"><input name="query" type="text" maxlength="120" placeholder="Enter Terms"> <button type="submit"><span class="icon-search"></span></button></form></li></ul></li></ul></div><div class="blogHeader"><h1 class="banner">The Author</h1><span class="tagline">Wants You To Love Him</span></div><div class="container blog"><div class="row"><div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6"><h2 class="subTitle">about me</h2><p>I am a person with a web page and a url that is also my name, which is to say that I am basically a product and you are a potential customer. By which I mean I'm giving a bunch of words away for no money in hope of earning the affection of internet strangers.</p><p>My business model is a work in progress.</p><p>If you like what I have written, please let me know. If you hate what I have written, please let me know.</p><h2 class="subTitle">how to contact me</h2><p><a href="https://twitter.com/intent/user?screen_name=Zachary_Bell">Twitter is fun</a> or <a href="https://www.reddit.com/user/zachary_bell">Reddit</a>, if you're into that. Otherwise, <a href="http://www.zacharybell.net/contact">I have a form</a>.</p><h2 class="subTitle">About the site itself</h2><p>Some people want to know and I am here to please the people. So, for you technologically inclined folks, this site was build on <a href="https://jekyllrb.com/">Jekyll</a>, which I tortured half to death and then added some javascript.</p></div></div></div><div class="footer container"><div class="row"><div class="col-ms-offset-1 col-ms-10 col-sm-12 col-md-offset-1 col-md-10"><p>Copyright © 2014 Zachary Bell - All Rights Reserved. Except where otherwise noted, contents of this site including text and media may not be reproduced without prior written consent.</p></div></div></div></div><script src="http://www.zacharybell.net/javascript/blog-index.min.js"></script><script>$(function() {
+        FastClick.attach(document.body);
+    });
+  
+    $(".navMenu").znetNavMenu({},function(){
+        $('html .navContainer').css('visibility', 'visible');
+    });
+    
+    // anchor links headbutt the top of the window. Fixed nav menu hides part
+    // of anchor link. This fixes the problem. 
+    $(window).on('hashchange',function(){
+        scrollBy(0, -80);
+    });
+
+    $(window).on("click", function(event) {
+        var $target = $(event.target);
+        var currentHref = $target.attr('href');
+        
+        if($target.is(".footLink--upper")){
+            if (currentHref.indexOf('#!') === 0) {
+                var newHref = currentHref.substr(2);
+                $target.attr('href', newHref);
+            }
+        }
+    });</script><script>window.onload = function(){
+                $(".footnoteCollection").znetFootnotes({
+                        forceFootnoteLayout : true,
+                        nudge: 10,
+                    }, function(){
+                        $('.story').css('visibility', 'visible');
+                        $('.footnoteCollection').css('visibility', 'visible');
+                        
+                });
+                
+                $('.mainContainer').css({'visibility': 'visible'});
+            };</script></body></html>
